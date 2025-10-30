@@ -16,6 +16,7 @@ The `data_documentation/` directory contains the following file:
 
 ## Code
 The `code/` directory contains the following programs:
+
 A. Subset to Paxlovid administrations.sas <Subsets eMAR file to Paxlovid administrations>
 
 B. Apply eligibility criteria.sas <Applies eligibility criteria to derive study population>
