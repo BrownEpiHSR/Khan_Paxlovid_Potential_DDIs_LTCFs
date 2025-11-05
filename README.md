@@ -17,16 +17,16 @@ The `data_documentation/` directory contains the following file:
 ## Code
 The `code/` directory contains the following programs:
 
-A. Subset to Paxlovid administrations.sas <Subsets eMAR file to Paxlovid administrations>
+A. Subset to Paxlovid administrations.sas-- Subsets eMAR file to Paxlovid administrations
 
-B. Apply eligibility criteria.sas <Applies eligibility criteria to derive study population>
+B. Apply eligibility criteria.sas Applies-- eligibility criteria to derive study population
 
-C. Group concomitant drugs.sas <Groups concomitant drugs that exist as combinations or generic and brand names together>
+C. Group concomitant drugs.sas-- Groups concomitant drugs that exist as combinations or generic and brand names together
 
-D. Calculate prevalence and confidence limits.sas <Calculates the prevalence of drug-drug interaction (DDI) and confidence limits>
+D. Calculate prevalence and confidence limits.sas-- Calculates the prevalence of drug-drug interaction (DDI) and confidence limits
 
-E. Calculate median and quartiles.sas <Calculates median and quartiles>
+E. Calculate median and quartiles.sas-- Calculates median and quartiles
 
-F. Classify Paxlovid dose.sas <Classifies dose of Paxlovid>
+F. Classify Paxlovid dose.sas-- Classifies dose of Paxlovid
 
 Programs were run in sequence to produce the study findings.
