@@ -5,14 +5,14 @@ Khan et al. - Drug-drug interactions with nirmatrelvir/ritonavir among long-term
 This repository contains data documentation and code for the analysis in the manuscript titled "Drug-drug interactions with nirmatrelvir/ritonavir among long-term care facility residents."
 
 ## Repository Contents
-- `data_documentation/` - Contains files describing the data sources, key variables, and project information
-- `code/` - The programs used for data management and analysis.
+- `data_documentation` - Contains files describing the data sources, key variables, and project information
+- `code` - The programs used for data management and analysis.
 - `LICENSE` - The license under which this repository is shared.
 - `README.md` - This file, providing an overview of the repository.
   
 ## Data Documentation
-The `data_documentation/` directory contains the following file:
-- Data_documentation.xlsx` - contains information about key variables, data sources and other project related information
+The data_documentation directory contains the following files:
+- Data_documentation.xlsx - contains information about key variables, data sources and other project related information
 - Program Codebook Developed in Response to Reviewer Comments.xlsx` - This codebook documents the SAS programs and derived variables developed to address additional analyses and clarifications requested during the journal peer-review process. 
 
 ## Code
