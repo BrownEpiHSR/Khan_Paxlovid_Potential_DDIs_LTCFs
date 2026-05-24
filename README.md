@@ -13,6 +13,7 @@ This repository contains data documentation and code for the analysis in the man
 ## Data Documentation
 The `data_documentation/` directory contains the following file:
 - Data_documentation.xlsx` - contains information about key variables, data sources and other project related information
+- Program Codebook Developed in Response to Reviewer Comments.xlsx` - This codebook documents the SAS programs and derived variables developed to address additional analyses and clarifications requested during the journal peer-review process. 
 
 ## Code
 The `code/` directory contains the following programs:
