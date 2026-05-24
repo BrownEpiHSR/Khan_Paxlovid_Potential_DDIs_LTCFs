@@ -17,16 +17,31 @@ The `data_documentation/` directory contains the following file:
 ## Code
 The `code/` directory contains the following programs:
 
-A. Subset to Paxlovid administrations.sas-- Subsets eMAR file to Paxlovid administrations
+A. Subset to Paxlovid administrations.sas — Subsets eMAR file to Paxlovid administrations
 
-B. Apply eligibility criteria.sas Applies-- eligibility criteria to derive study population
+B. Apply eligibility criteria.sas Applies — eligibility criteria to derive study population
 
-C. Group concomitant drugs.sas-- Groups concomitant drugs that exist as combinations or generic and brand names together
+C. Group concomitant drugs.sas — Groups concomitant drugs that exist as combinations or generic and brand names together
 
-D. Calculate prevalence and confidence limits.sas-- Calculates the prevalence of drug-drug interaction (DDI) and confidence limits
+D. Calculate prevalence and confidence limits.sas — Calculates the prevalence of drug-drug interaction (DDI) and confidence limits
 
-E. Calculate median and quartiles.sas-- Calculates median and quartiles
+E. Calculate median and quartiles.sas — Calculates median and quartiles
 
-F. Classify Paxlovid dose.sas-- Classifies dose of Paxlovid
+F. Classify Paxlovid dose.sas — Classifies dose of Paxlovid
 
-Programs were run in sequence to produce the study findings.
+Programs A-F were run in sequence to produce the study findings.
+
+Programs 1–6 were developed to respond to journal reviewer comments. 
+
+1- Create subsets of medication administration files_GH.sas — Creates yearly subsets of medication administration files restricted to residents in the final Paxlovid cohort.
+
+2- Polypharmacy Statistics_GH.sas — Calculates polypharmacy statistics during the 180-day lookback period prior to Paxlovid initiation.
+
+3- Proportion of residents with interacting medications_GH.sas — Calculates the proportion of residents with ≥1, ≥2, and ≥3 potentially interacting medications during Paxlovid treatment.
+
+4- Nursing home time calculation_GH.sas — Calculates nursing home length of stay prior to Paxlovid initiation and stratifies results by DDI exposure.
+
+5- Create comorbid conditions from conditions file_GH.sas — Creates comorbidity indicators (e.g., diabetes, CKD, dementia, CHF) using ICD-9 and ICD-10 diagnosis codes.
+
+6- Residents receiving normal dose with CKD_GH.txt — Identifies residents with chronic kidney disease (CKD) who received the standard Paxlovid dose.
+
