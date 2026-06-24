@@ -44,5 +44,5 @@ Programs 1–6 were developed to respond to journal reviewer comments.
 
 5- Create comorbid conditions from conditions file_GH.sas — Creates comorbidity indicators (e.g., diabetes, CKD, dementia, CHF) using ICD-9 and ICD-10 diagnosis codes.
 
-6- Residents receiving normal dose with CKD_GH.txt — Identifies residents with chronic kidney disease (CKD) who received the standard Paxlovid dose.
+6- Residents receiving normal dose with CKD_GH.sas — Identifies residents with chronic kidney disease (CKD) who received the standard Paxlovid dose.
 
